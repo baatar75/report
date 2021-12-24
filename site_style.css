@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(mountian.jpg);
+  background-size: 100%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.pro
+{
+  float: left;
+  width: 305px;
+  background-color: #9DA7E5;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  box-shadow: 10px 10px 10px dimgrey;
+}
+.profile iframe
+{
+  margin: 10px;
+}
+.name
+{
+  font-family: 'Pushster', cursive;
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  margin-left: 5px;
+}
+.name1
+{
+  font-size: 20px;
+  text-align: left;
+  width: 300px;
+  margin-left: 5px;
+}
+.flexbox
+{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+p.img
+{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+div ion-icon
+{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.flex1
+{
+  border-right: black;
+  border-left: 3px solid black;
+  height: 500px;
+}
+div ul li p
+{
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.zuult
+{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.flex2
+{
+  justify-content: center;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+
+}
+.flex2 > div
+{
+  transition: 1s ease-out;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  width: 20%;
+  margin: 3%;
+  padding: 20px;
+  box-shadow: 10px 10px 10px dimgrey;
+  }
+.flex2 > div:nth-child(3)
+{
+  background-image: url(java.png);
+  background-position: right;
+  opacity: 0.6;
+}
+.flex2 > div:nth-child(2)
+{
+  background-image: url(html.png);
+  background-position: center;
+  opacity: 0.6;
+}
+.flex2 > div:nth-child(1)
+{
+  background-image: url(film.jpg);
+  opacity: 0.6;
+}
+.flex2 > div:hover
+{
+  width: 25%;
+  color: white;
+  font-weight: bold;
+}
+.flex2 > div:nth-child(1):hover{opacity: 10;}
+.flex2 > div:nth-child(2):hover{opacity: 10;}
+.flex2 > div:nth-child(3):hover{opacity: 10;}
+
+.flex2 div p
+{
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  word-break: keep-all;
+}  
+.flex3
+{
+  justify-content: center;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
